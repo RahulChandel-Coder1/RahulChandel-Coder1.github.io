@@ -1,0 +1,35 @@
+[
+  
+ 
+  {
+    "name": "Dermstore",
+    "desc": "This website is a clone of Dermstore it is a e-commerce site which sells skill care product here I implemented some fuctionalities.<br> <b>Tech Stack:</b> HTML,CSS,JAVASCRIPT",
+    "image": "Dermstore1",
+    "category": "",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Zee5",
+    "desc": "It is a OTT platform which showing an Indian subscription video on-demand and over-the-top streaming service, run by Zee Entertainment Enterprises.<br> <b>Tech Stack:</b> HTML,CSS,JAVASCRIPT",
+    "image": "ZEE522",
+    "category": "",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Co-schedule",
+    "desc": "This website is a clone of Co-schedule it is a e-commerce site which you schedule you daily tasks here I implemented some fuctionalities.<br> <b>Tech Stack:</b> HTML,CSS,JAVASCRIPT",
+    "image": "Co-schedule",
+    "category": "",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+  
+]
