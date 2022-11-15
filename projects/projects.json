@@ -13,7 +13,7 @@
   },
   {
     "name": "Zee5",
-    "desc": "It is a OTT platform which showing an Indian subscription video on-demand and over-the-top streaming service, run by Zee Entertainment Enterprises.<br> <b>Tech Stack:</b> HTML,CSS,JAVASCRIPT",
+    "desc": "This is a OTT platform which showing an Indian subscription video on-demand and over-the-top streaming service, run by Zee Entertainment Enterprises.<br> <b>Tech Stack:</b> HTML,CSS,JAVASCRIPT",
     "image": "ZEE522",
     "category": "",
     "links": {
@@ -29,6 +29,16 @@
     "links": {
       "view": "https://tubular-gelato-5355b0.netlify.app/",
       "code": "https://github.com/RahulChandel-Coder1/needed-bike-9148"
+    }
+  },
+  {
+    "name": "Online-TripManagementSystem",
+    "desc": "We have developed this REST API for an Online Trip Management System. This API performs all the fundamental CRUD operations of any Trip Management Application platform with user validation at every step.<br> <b>Tech Stack:</b> J2EE,Spring-Boot,JPA,Hibernate,JDBC,JSP",
+    "image": "JavaMainProject",
+    "category": "",
+    "links": {
+      "view": "https://tubular-gelato-5355b0.netlify.app/",
+      "code": "https://github.com/RahulChandel-Coder1/tangible-station-4401"
     }
   }
   

@@ -661,7 +661,9 @@ header .navbar ul li a:hover {
   margin: 2rem;
 }
 .work .box-container .box {
-  flex: 1 1 30rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* flex: 1 1 30rem; */
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
@@ -672,18 +674,20 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  /* display: flex;
+  flex-direction: column; */
 }
 .work .box-container .box .content {
   height: 100%;
   width: 100%;
-  position: absolute;
-  top: 85%;
-  left: 0;
+  position: relative;
+  /* bottom: 85%;
+  left: 0; */
   background: rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction: column;
 }
-.work .box-container .box .content .tag {
+/* .work .box-container .box .content .tag {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -692,13 +696,16 @@ header .navbar ul li a:hover {
   width: 100%;
   padding-left: 1rem;
   background: #ffd900;
-}
-.work .box-container .box .content .tag h3 {
-  font-size: 2rem;
-}
-.work .box-container .box:hover .content {
+}*/
+
+ .work .box-container .box .content .tag h3 {
+  font-size: 3rem;
+  margin-left: 30px;
+  color: blue;
+} 
+/* .work .box-container .box:hover .content {
   top: 25%;
-}
+} */
 .work .desc {
   margin: 2rem;
   display: flex;
@@ -706,7 +713,7 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 .work .desc p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 .work .desc .btns {
   display: flex;
@@ -760,6 +767,17 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
+
+/* Mediac querry */
+@media screen and (max-width: 1080px) {
+  .work .box-container .box{
+      display: block;
+
+  }
+}
+
+
+
 /* work section ends */
 
 /* experience section starts */
